@@ -28,7 +28,35 @@ function setup() {
   
   function draw() {
       
-    image(bg1,0,0);
+    push();
+      scale(1)
+      image(mid1,500,430);
+      pop();
+
+      push();
+      scale(1)
+      image(mid2,300,290);
+      pop();
+
+      push();
+      scale(1)
+      image(mid3,800,560);
+      pop();
+
+      push();
+      scale(1)
+      image(fr1,500,450);
+      pop();
+
+      push();
+      scale(1)
+      image(fr2,570,90);
+      pop();
+
+      push();
+      scale(1)
+      image(fr3,608,320);
+      pop();
     
 
 
